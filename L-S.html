@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Final Website</title>
+  </head>
+
+<style>
+body {
+  background-image: url("sun1.jpg");
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+}
+</style>
+
+<style>
+.dropbtn {
+  background-color: #336699;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #336699;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #336699;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #336699}
+</style>
+
+
+<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="Hobbies.html">Hobbies Page</a>
+    <a href="Food.html">Food page</a>
+    <a href="Friends.html">Friends Page</a>
+    <a href="index.html">Homepage</a>
+  </div>
+</div>
+
+
+<h1>SIGN UP</h1>
+
+<form action="GMF.html" method="get">
+         
+          User First Name:
+          <input type="text" name="first_name">
+          <br> 
+          Password
+          <input type="text" name="password"> 
+          <br>
+          Date of Birth:
+          <input type="date" id="dob" name="dob">
+          <br>
+
+          <input type="submit">
+
+<h1>LOGIN</h1>
+
+<form action="GMF.html" method="get">
+
+          Username:
+          <input type="text" name="username">
+          <br> 
+          Password
+          <input type="text" name="password"> 
+          <br>
+          <input type="submit">
